@@ -187,8 +187,26 @@ thead th {
     color: #555;
     background-color: rgba(250, 250, 250, 0.5);
 }
+/* --- 行淡入动画 --- */
+@keyframes fadeInRow {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 tbody tr {
     background-color: rgba(248, 250, 252, 0.5);
+    animation: fadeInRow 0.4s ease-out forwards;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+tbody tr:hover {
+    background-color: rgba(230, 240, 250, 0.8);
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.04);
 }
 tbody tr:last-child td {
     border-bottom: none;
