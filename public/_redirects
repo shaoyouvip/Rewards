@@ -1,2 +1,1 @@
-/ADMIN /admin 200
-/Admin /admin 200
+/^\/admin\/?$/i /admin 200
