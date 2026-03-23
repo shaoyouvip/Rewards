@@ -13,7 +13,7 @@ export async function onRequest(context) {
       alipay: env.CONFIG_QR_ALIPAY || "/img/zsm_zfb.webp",
     },
     infoBox: {
-      text: env.CONFIG_INFO_TEXT || "如需修改昵称信息，您可以将您的赞赏截图和转账单号/支付单号和修改昵称发送到",
+      text: env.CONFIG_INFO_TEXT || "如需修改昵称，请将赞赏截图或单号发送至",
       email: env.CONFIG_INFO_EMAIL || "zrf@zrf.me",
     },
     footerHTML: env.CONFIG_FOOTER_HTML || `周润发: <a href="https://blog.zrf.me/">博客</a>`,
