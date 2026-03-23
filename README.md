@@ -81,7 +81,7 @@
 | `CONFIG_FAVICON`                | 浏览器标签页上显示的图标链接。                                    | `/img/icon.webp` (项目内图片)     |
 | `CONFIG_INFO_TEXT`              | 页面底部信息框中的提示文字。                                      | `如需修改昵称信息...`           |
 | `CONFIG_INFO_EMAIL`             | 页面底部信息框中显示的联系邮箱。                                  | `zrf@zrf.me`        |
-| `CONFIG_FOOTER_HTML`            | 最底部的版权信息，支持 HTML。                                     | `周润发: <a href="https://d.zrf.me/blog">博客</a>` |
+| `CONFIG_FOOTER_HTML`            | 最底部的版权信息，支持 HTML。                                     | `周润发: <a href="https://blog.zrf.me/">博客</a>` |
 | `CONFIG_ROWS_PER_PAGE`          | 每页显示的赞赏记录数，默认为10条。                                | `10`                            |
 | `CONFIG_HIGHLIGHT_PRIMARY`      | 主要高亮（红色）的金额门槛。                                      | `100`                           |
 | `CONFIG_HIGHLIGHT_SECONDARY`    | 次要高亮（黄色）的金额门槛。                                      | `20`                            |

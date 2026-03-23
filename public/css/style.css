@@ -191,7 +191,13 @@ tbody tr:last-child td {
     border-bottom: none;
 }
 td:nth-child(2) { text-align: right; }
-td:nth-child(3) { text-align: right; color: #888; }
+td:nth-child(3) { text-align: right; color: #555; }
+tbody tr:not(.highlight):not(.highlight-secondary) td {
+    color: #333;
+}
+tbody tr:not(.highlight):not(.highlight-secondary) td:nth-child(3) {
+    color: #333;
+}
 
 /* --- 高亮样式 --- */
 .highlight {
